@@ -1,4 +1,5 @@
 FROM ubuntu:20.04
+SHELL ["/bin/bash", "-c"]
 RUN apt-get update \
     && apt-get install -y build-essential libz-dev zlib1g-dev libfreetype-dev git wget curl language-pack-zh-hans zip unzip \
     && locale-gen zh_CN.UTF-8 \
