@@ -19,7 +19,7 @@ source "$HOME/.sdkman/bin/sdkman-init.sh"
 sdk version
 sdk install java 21.2-nik
 sdk install maven
-rm -f $HOME/.sdkman/archives
+rm -f $HOME/.sdkman/archives/*
 gu install native-image
 
 java -version
