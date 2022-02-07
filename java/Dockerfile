@@ -8,6 +8,6 @@ RUN . "$HOME/.sdkman/bin/sdkman-init.sh" \
     && sdk install maven \
     && rm -f $HOME/.sdkman/archives/*
 RUN . "$HOME/.sdkman/bin/sdkman-init.sh" \
-    && sdk install java 21.2-nik \
+    && sdk install java 21.3.0.r11-nik \
     && gu install native-image \
     && rm -f $HOME/.sdkman/archives/*
